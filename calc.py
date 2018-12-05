@@ -18,7 +18,7 @@ elif op.lower() == "multiply" or op.lower() == "times" or op == "*" or op == "x"
     print(calclib.multiply(num1, num2))
 elif op.lower() == "exit":
     quit(0)
-elif op.lower() == "power":
+elif op.lower() == "power" or op.lower() == "^":
     print(calclib.power_of(num1, num2))
 else:
     print("Invalid Operator")
