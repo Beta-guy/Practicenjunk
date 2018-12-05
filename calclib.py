@@ -15,5 +15,4 @@ def multiply(a, b):
 
 
 def power_of(a, b):
-    b = b - 1
-    return a*a*b
+    return a**b
